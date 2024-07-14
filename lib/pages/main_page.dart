@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quotes_app/controllers/favorite_controller.dart';
-import 'package:quotes_app/initialConfiguration.dart';
 import 'package:quotes_app/pages/favourites_page.dart';
 import 'package:quotes_app/pages/home_page.dart';
 import 'package:quotes_app/pages/quotes_page.dart';
