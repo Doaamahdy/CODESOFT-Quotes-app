@@ -27,15 +27,15 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     void onTap(index) {
       setState(() {
-        startPage = index;
+        currentIndex = index;
       });
     }
 
     return Scaffold(
       backgroundColor: Colors.white,
-      body: pages[startPage],
+      body: pages[currentIndex],
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: startPage,
+        currentIndex: currentIndex,
         selectedFontSize: 14,
         unselectedFontSize: 14,
         type: BottomNavigationBarType.fixed,
